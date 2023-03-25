@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+button{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 20%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    background-color:#F99D31;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+#map{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+}
+.groupBtn{
+    position: relative;
+    display: flex;
+    left: 30%;
+    gap: 2vw;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+#message{
+    color: #C76E06;
+    display: flex;
+    justify-content: center;
+    
+}
